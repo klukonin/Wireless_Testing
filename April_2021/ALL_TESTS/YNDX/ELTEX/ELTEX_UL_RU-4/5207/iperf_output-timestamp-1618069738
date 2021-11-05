@@ -1,0 +1,16 @@
+
+iperf 3.7
+Linux wireless-virtual-machine 5.8.0-48-generic #54~20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5207
+-----------------------------------------------------------
+Time: Sat, 10 Apr 2021 15:49:01 GMT
+Accepted connection from 192.168.10.76, port 44090
+      Cookie: eqxxxlzjckf3qyuggcff7v6vdltzmob4a2it
+      TCP MSS: 0 (default)
+Starting Test: protocol: TCP, 0 streams, 131072 byte blocks, omitting 0 seconds, 120 second test, tos 0
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate
+iperf 3.7
+Linux wireless-virtual-machine 5.8.0-48-generic #54~20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021 x86_64

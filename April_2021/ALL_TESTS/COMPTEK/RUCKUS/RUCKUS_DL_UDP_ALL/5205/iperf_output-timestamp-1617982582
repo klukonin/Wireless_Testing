@@ -1,0 +1,35 @@
+iperf 3.7
+Linux wireless-virtual-machine 5.8.0-48-generic #54~20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021 x86_64
+-----------------------------------------------------------
+Server listening on 5205
+-----------------------------------------------------------
+Time: Fri, 09 Apr 2021 16:17:05 GMT
+Accepted connection from 192.168.10.67, port 37302
+      Cookie: ob7vzvjhwrzdbfi4rah27zlgmbzqjs5rta4i
+      Target Bitrate: 10000000
+[  5] local 192.168.10.60 port 5205 connected to 192.168.10.67 port 39184
+Starting Test: protocol: UDP, 1 streams, 512 byte blocks, omitting 0 seconds, 120 second test, tos 0
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-0.50   sec   610 KBytes  9.98 Mbits/sec  1219  
+[  5]   0.50-1.00   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   1.00-1.50   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   1.50-2.00   sec   610 KBytes  9.99 Mbits/sec  1220  
+[  5]   2.00-2.50   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   2.50-3.00   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   3.00-3.50   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   3.50-4.00   sec   610 KBytes  9.99 Mbits/sec  1220  
+[  5]   4.00-4.50   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   4.50-5.00   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   5.00-5.50   sec   610 KBytes  9.99 Mbits/sec  1220  
+[  5]   5.50-6.00   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   6.00-6.50   sec   610 KBytes  10.0 Mbits/sec  1221  
+[  5]   6.50-7.00   sec   610 KBytes  10.0 Mbits/sec  1220  
+[  5]   6.50-7.00   sec   610 KBytes  10.0 Mbits/sec  1220  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+Test Complete. Summary Results:
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-7.00   sec  8.42 MBytes  10.1 Mbits/sec  0.000 ms  0/17240 (0%)  sender
+[  5] (receiver statistics not available)
+CPU Utilization: local/sender 0.0% (0.0%u/0.0%s), remote/receiver 0.0% (0.0%u/0.0%s)
+iperf 3.7
+Linux wireless-virtual-machine 5.8.0-48-generic #54~20.04.1-Ubuntu SMP Sat Mar 20 13:40:25 UTC 2021 x86_64
